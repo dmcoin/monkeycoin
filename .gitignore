@@ -1,13 +1,34 @@
-# Compiled Object files
-*.slo
-*.lo
+src/*.exe
+src/quarkcoin
+src/quarkcoind
+src/test_quarkcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
 *.o
+*.patch
+.quarkcoin
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+quarkcoin-qt
+Quarkcoin-Qt.app
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
+# Unit-tests
+Makefile.test
+quarkcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
