@@ -1192,6 +1192,26 @@ void MapPort(bool)
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strMainNetDNSSeed[][2] = {   
+	{"seed1.monkeycoin.ns01.info","seed1.monkeycoin.ns01.info"},
+	{"seed2.monkeycoin.ns01.info","seed2.monkeycoin.ns01.info"},
+	{"seed3.monkeycoin.ns01.info","seed3.monkeycoin.ns01.info"},
+	{"seed4.monkeycoin.ns01.info","seed4.monkeycoin.ns01.info"},
+	{"seed5.monkeycoin.ns01.info","seed5.monkeycoin.ns01.info"},
+	{"seed1.monkeycoin.ns02.info","seed1.monkeycoin.ns02.info"},
+	{"seed2.monkeycoin.ns02.info","seed2.monkeycoin.ns02.info"},
+	{"seed3.monkeycoin.ns02.info","seed3.monkeycoin.ns02.info"},
+	{"seed4.monkeycoin.ns02.info","seed4.monkeycoin.ns02.info"},
+	{"seed5.monkeycoin.ns02.info","seed5.monkeycoin.ns02.info"},
+	{"seed1.monkeycoin.ns01.us","seed1.monkeycoin.ns01.us"},
+	{"seed2.monkeycoin.ns01.us","seed2.monkeycoin.ns01.us"},
+	{"seed3.monkeycoin.ns01.us","seed3.monkeycoin.ns01.us"},
+	{"seed4.monkeycoin.ns01.us","seed4.monkeycoin.ns01.us"},
+	{"seed5.monkeycoin.ns01.us","seed5.monkeycoin.ns01.us"},
+	{"seed1.monkeycoin.ns02.us","seed1.monkeycoin.ns02.us"},
+	{"seed2.monkeycoin.ns02.us","seed2.monkeycoin.ns02.us"},
+	{"seed3.monkeycoin.ns02.us","seed3.monkeycoin.ns02.us"},
+	{"seed4.monkeycoin.ns02.us","seed4.monkeycoin.ns02.us"},
+	{"seed5.monkeycoin.ns02.us","seed5.monkeycoin.ns02.us"},
     {"seed1.monkeycoin.tk", "seed1.monkeycoin.tk"},
     {NULL, NULL}
 };
